@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5{
+    font-family: 'Lora', serif;
+    color: #525252;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.bold{
+    font-family: 'Roboto', sans-serif;
+}
+/* font-color */
+.primaryText{
+    color: #A2B4C0;
+}
+.secondaryText{
+    color: #525252;
+}
+/* font-size */
+.font-14{
+    font-size: 14px;
+
+}
+.font-16{
+    font-size: 16px;
+
+}
+.font-18{
+    font-size: 18px;
+
+}
+.font-20{
+    font-size: 20px;
+
+}
+
+/*  */
+.separatorLine{
+    width: 3px;
+    height: 28px;
+    background-color: #A2B4C0;
+    margin: 0px 20px;
+}
+/*  */
+.bgPrimary{
+    background-color: #608CC4;
+}
+.bgStandard{
+    background-color: #426DA3;
+}
+.bgSecondary{
+    background-color: #9AB0C6;
+}
+.bgVoilet{
+    background-color: #8B459F;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

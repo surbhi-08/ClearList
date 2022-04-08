@@ -1,0 +1,108 @@
+@import '../../styles.css';
+
+hr{
+    background-color: #A2B4C0;
+    height: 2px !important;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.card{
+    border: 1px solid #9AB0C6;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 50px;
+    margin-top: 12px !important;
+}
+.primaryBtn{
+    background-color: #9AB0C6;
+    color: #fff;
+    font-size: 16px;
+
+}
+.transparentBtn{
+    background: transparent;
+    color: #9AB0C6;
+    font-size: 16px;
+    border: 1px solid #9AB0C6;
+
+}
+.FundingTable td{
+    vertical-align: middle;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #000;
+    max-width: 200px;
+}
+.FundingTable .table tr th , .FundingTable .table tr td{
+    padding: 1.5rem 0.5rem !important ;
+
+}
+.FundingTable .table thead tr th {
+    font-size: 14px ;
+    color: #9AB0C6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid #9AB0C6;
+}
+.FundingTable .table tbody , .FundingTable .table tr td{
+    border: none !important;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .form-label {
+    font-size: 14px ;
+    color: #9AB0C6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.FundingTable .table tr td .points{
+    border-left: 3px solid #a2b4c0;
+    padding-left: 8px;
+    font-size: 20px;
+    color: #A2B4C0;
+}
+.equityTitle{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #9AB0C6;
+    margin: 0Px;
+}
+.equityTable .table tr td{
+    border: none;
+
+}
+.equityTable .table tr:nth-child(3) td {
+   vertical-align: middle;
+
+}
+.progress{
+    height: 50px;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #fff;
+    
+}
+.progress span{
+    text-align: left;
+    padding-left: 5px;
+}
+@media (max-width: 768px){
+    .FundingTable .table tr td .points{
+        border:none;
+
+    }
+  }

@@ -1,0 +1,268 @@
+<div class="container my-4">
+    <div class="row">
+        <div class="header">
+            <h1>Biomoneta Research Pvt Ltd</h1>
+            <span class="separatorLine"></span>
+            <label class="font-18 secondaryText">Sector  </label>
+            <label class="font-18 primaryText"> - Biotech</label>
+        </div>
+        <hr class="mt-4">
+        <div class="table-responsive">
+            <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <label class="font-20 primaryText">
+                            Number of Rounds
+                            <span class="font-20 secondaryText">5 </span>
+                        </label>                      </td>
+                      <td>
+                        <label class="font-20 primaryText">Capital Raised
+                            <span class="font-20 secondaryText"> ₹5.58 Cr  </span>
+                        </label>                      
+                      <td>
+                        <label class="font-20 primaryText">Share Holders
+                            <span class="font-20 secondaryText"> 16  </span>
+                        </label>
+                      </td>
+                      <td>
+                        <label class="font-20 primaryText"> Valuation
+                            <span class="font-20 secondaryText"> ₹14.28 Cr </span>
+                        </label>                     
+                      </td>
+                
+                    </tr>
+                  </tbody>
+             
+            </table>
+          </div>
+     
+        <hr class="mb-4">
+        <div class="card">
+            <div class="card-body">
+                <label class="font-18 primaryText">Equity
+                    <span class="font-18 secondaryText"> Distribution</span>
+                 </label>
+                 <div class="table-responsive equityTable">
+                    <table class="table">
+                      
+                          <tbody>
+                            <tr>
+                              <td>
+                                <p class="equityTitle">Current Holding</p>
+                                <p class="m-0"><b class="bold">₹ 14.24 Cr </b> valuation<br/> as on <b class="bold"> 07 Jun 2020</b></p>
+                              </td>
+                              <td>
+                                <p class="font-14 secondaryText m-0">Founder1 </p>
+                                <p class="font-14 primaryText m-0">15000 shares </p>
+                              </td>
+                              <td>
+                                <p class="font-14 secondaryText m-0">Founder2 </p>
+                                <p class="font-14 primaryText m-0">15000 shares </p>                 
+                              </td>
+                              <td>
+                                <p class="font-14 secondaryText m-0">Founder3 </p>
+                                <p class="font-14 primaryText m-0">15000 shares </p>                          
+                              </td>
+                              <td >
+                                <p class="font-14 secondaryText m-0">Founder4 </p>
+                                <p class="font-14 primaryText m-0">15000 shares </p>
+                              </td>
+                              <td >
+                                <p class="font-14 secondaryText m-0">Founder5 </p>
+                                <p class="font-14 primaryText m-0">15000 shares </p>
+                              </td>
+                              <td >
+                                <p class="font-14 secondaryText m-0">Others </p>
+                                <p class="font-14 primaryText m-0">75000 shares </p>
+                              </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="6">
+                                    <div class="progress">
+                                        <div class="progress-bar bgPrimary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+                                        <div class="progress-bar bgPrimary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+                                        <div class="progress-bar bgPrimary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+                                        <div class="progress-bar bgPrimary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+                                        <div class="progress-bar bgSecondary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+                                        <div class="progress-bar bgStandard" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"><span>EQ - 15%</span></div>
+
+                                      </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <p class="equityTitle">Debt</p>
+                                  <p class="m-0"><b class="bold">₹5.02 Cr </b> debt<br/> as on <b class="bold"> 07 Jun 2020</b></p>
+                                </td>
+                                <td colspan="6">
+                                    <div class="progress">
+                                        <div class="progress-bar bgPrimary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span>CN - 5mn</span></div>
+                                       
+                                        <div class="progress-bar bgVoilet" role="progressbar" style="width: 24.5%" aria-valuenow="24.5" aria-valuemin="0" aria-valuemax="100"><span>SAFEs - 2mn</span></div>
+
+                                      </div>
+                                </td>
+                               
+                              </tr>
+                          </tbody>
+                     
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <hr class="my-4">
+        <h1 class="title">SCENARIO MODELLING FOR FUNDING ROUND</h1>
+        <hr class="my-4">
+       
+    </div>
+    <div>
+        <form [formGroup]="forms">
+            <!-- 1 -->
+
+            <div class="card">
+                <div class="card-body">
+                    <label class="font-18 primaryText mb-4">Initial  
+                        <span class="font-18 secondaryText"> Details</span>      
+                    </label>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="ScenarioName" class="form-label">SCENARIO NAME</label>
+                            <input type="text" class="form-control"  formControlName="ScenarioName" placeholder="SCENARIO NAME">
+                        </div>
+                        <div class="col">
+                            <label for="PreMoney" class="form-label">PRE-MONEY</label>
+                            <input type="text" class="form-control"  formControlName="PreMoney" placeholder="PRE-MONEY">
+                        </div>
+                        <div class="col">
+                            <label for="PreMoney" class="form-label">NEW INVESTMENT</label>
+                            <input type="text" class="form-control"  formControlName="NewInvestment" placeholder="NEW INVESTMENT">                 
+                        </div>
+
+                    </div>
+                
+                  
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card my-4">
+                <div class="card-body">
+                    <div class="flex">
+                        <label class="font-18 primaryText mb-2">Investor  
+                            <span class="font-18 secondaryText"> Details</span>      
+                        </label>
+                        <div class="pe-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#9AB0C6" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <label class="font-18 primaryText mb-4">Remaining to invest  
+                        <span class="font-18 secondaryText"> $1,000,000</span> (50%)     
+                    </label>
+
+                    <div class="table-responsive FundingTable">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th scope="col">INVESTOR NAME</th>
+                                  <th scope="col">SECURITY TYPE</th>
+                                  <th scope="col">INVESTMENT AMOUNT</th>
+                                  <th scope="col"></th>
+                                  <th scope="col"></th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <input type="text" class="form-control"   formControlName="InvestorName">   
+                                  </td>
+                                  <td>
+                                    <button class="btn primaryBtn">COMMON STOCK</button>
+                                  </td>
+                                  <td>
+                                    <input type="text" class="form-control"   formControlName="InvestmentAmount">   
+                                  </td>
+                                  <td>
+                                    <button class="btn transparentBtn">CONFIRM INVESTMENT</button>
+                                  </td>
+                                  <td class="float-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#396E96" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"/>
+                                    </svg>
+                                  </td>
+                                </tr>
+                              </tbody>
+                         
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="flex">
+                        <label class="font-18 primaryText mb-2">ESOP/RSU Pool    
+                            <span class="font-18 secondaryText"> Details</span>      
+                        </label>
+                        <div class="pe-2">
+                            <img src="/assets/svg/Group257.svg">
+                        </div>
+                    </div>
+                     <div class="table-responsive FundingTable">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th scope="col">CURRENT QUANTITY, FDB PERCENTAGE</th>
+                                  <th scope="col">REVISED POOL</th>
+                                  <th scope="col">POST MONEY OPTION POOL</th>
+                                  <th scope="col">DILUTION METHOD</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <label class="font-18 primaryText ">48500, 5.820% of FDB   </label> 
+                                  </td>
+                                  <td>
+                                    <label class="font-18 secondaryText ">Keep existing qunatity
+                                    <img src="/assets/svg/Group24.svg" class="mx-3">
+                                    </label>
+                                    </td>
+                                  <td>
+                                    <input type="text" class="form-control"   formControlName="PostMoney" value="48500">   
+                                  </td>
+                                  <td>
+                                    <label class="font-18 secondaryText">Dilute only existing investors 
+                                    <img src="/assets/svg/Group24.svg" class="mx-3">
+                                    </label>
+                                  </td>
+                            
+                                </tr>
+                              </tbody>
+                         
+                        </table>
+                      </div>
+                  
+                </div>
+            </div>
+
+            <!-- button -->
+            <div class="my-4">
+                <button class="btn primaryBtn" (click)="submitForm()">CREATE SCENARIO</button>
+
+            </div>
+
+
+        </form>
+    </div>
+
+</div>
